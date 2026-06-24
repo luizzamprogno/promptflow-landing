@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Termos de Uso e Licença — PromptFlow</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0B0B0F; --surface:#14141B; --surface-2:#191922; --border:#262630;
+    --text:#F3F3F6; --text-muted:#94939F; --text-dim:#5C5B66;
+    --accent-a:#7C5CFC; --accent-b:#3FA9F5; --go:#3DD68C; --go-dim:#1F4434; --warn:#FFB454;
+    --mono:'IBM Plex Mono', monospace; --sans:'Manrope', sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased;}
+  a{color:var(--accent-b);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+
+  header{position:sticky;top:0;z-index:50;background:rgba(11,11,15,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);}
+  nav{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:760px;margin:0 auto;}
+  .logo{font-family:var(--mono);font-weight:600;font-size:16px;display:flex;align-items:center;gap:10px;}
+  .logo img{width:26px;height:26px;border-radius:7px;object-fit:cover;}
+  .back-link{font-family:var(--mono);font-size:13px;color:var(--text-muted);}
+
+  main{padding:56px 0 90px;}
+  .eyebrow{
+    font-family:var(--mono);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--accent-b);display:flex;align-items:center;gap:8px;margin-bottom:16px;
+  }
+  .eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent-b);box-shadow:0 0 8px var(--accent-b);}
+  h1{font-family:var(--mono);font-size:clamp(26px,4vw,34px);font-weight:700;margin-bottom:10px;}
+  .updated{font-family:var(--mono);font-size:12.5px;color:var(--text-dim);margin-bottom:48px;}
+
+  .callout{
+    border:1px solid var(--go-dim);background:linear-gradient(180deg, rgba(61,214,140,.07), transparent);
+    border-radius:12px;padding:20px 22px;margin:28px 0 44px;
+  }
+  .callout strong{color:var(--go);}
+
+  .risk-box{
+    border:1px solid #3A1F26;background:linear-gradient(180deg, rgba(255,90,90,.08), transparent);
+    border-radius:12px;padding:20px 22px;margin:24px 0;
+  }
+  .risk-box .tag{font-family:var(--mono);font-size:11.5px;color:#FF8A8A;letter-spacing:.06em;text-transform:uppercase;}
+  .risk-box p{margin-top:10px;color:var(--text);}
+
+  section.clause{margin-bottom:38px;}
+  .clause .num{font-family:var(--mono);font-size:12px;color:var(--accent-b);margin-bottom:6px;}
+  .clause h2{font-size:19px;font-weight:700;margin-bottom:12px;}
+  .clause p, .clause li{color:var(--text-muted);font-size:15px;margin-bottom:10px;}
+  .clause ul{padding-left:20px;margin:10px 0;}
+  .clause strong{color:var(--text);}
+
+  footer{border-top:1px solid var(--border);padding:28px 0;font-family:var(--mono);font-size:12px;color:var(--text-dim);}
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a class="logo" href="index.html"><img src="icon-180.png" alt="PromptFlow"> PromptFlow</a>
+    <a class="back-link" href="index.html">← Voltar</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <span class="eyebrow">Documento legal</span>
+  <h1>Termos de Uso e Licença</h1>
+  <p class="updated">Última atualização: <!-- ATUALIZE A DATA AQUI --> 24 de junho de 2026</p>
+
+  <p style="color:var(--text-muted);margin-bottom:8px;">
+    Estes Termos regem o uso do software <strong style="color:var(--text)">PromptFlow</strong>
+    (“Software”), licenciado por <!-- SEU NOME COMPLETO OU RAZÃO SOCIAL --> [SEU NOME / RAZÃO SOCIAL]
+    (“Licenciante”) ao usuário que adquire uma assinatura (“Licenciado” ou “você”).
+    Ao instalar, ativar ou usar o Software, você concorda com estes Termos.
+  </p>
+
+  <div class="risk-box">
+    <span class="tag">⚠ Aviso importante — leia antes de continuar</span>
+    <p>
+      O PromptFlow automatiza ações dentro do seu próprio navegador, operando com a sua conta
+      já autenticada no Google Flow. O uso de automação nessa plataforma pode estar em
+      desacordo com os Termos de Serviço do Google, que pode, a seu critério, limitar,
+      suspender ou banir contas que apresentem comportamento automatizado. <strong>O
+      Licenciante não tem qualquer controle sobre as políticas desse provedor terceiro</strong>
+      e recomenda fortemente o uso de uma conta dedicada para geração de conteúdo, separada
+      de contas pessoais ou de uso crítico. O uso
+      do Software é de inteira responsabilidade do Licenciado, que assume conscientemente esse
+      risco ao adquirir a assinatura.
+    </p>
+  </div>
+
+  <section class="clause">
+    <div class="num">1</div>
+    <h2>Natureza da licença</h2>
+    <p>
+      A assinatura concede ao Licenciado uma licença de uso pessoal, não exclusiva e
+      intransferível do Software, pelo período em que a assinatura estiver ativa. Esta licença
+      <strong>não transfere a propriedade do software</strong> — código-fonte, marca e todos os
+      direitos de propriedade intelectual permanecem com o Licenciante. É proibido redistribuir,
+      revender, sublicenciar ou realizar engenharia reversa do Software.
+    </p>
+  </section>
+
+  <section class="clause">
+    <div class="num">2</div>
+    <h2>Assinatura e cobrança recorrente</h2>
+    <p>
+      A assinatura é cobrada mensalmente, de forma recorrente e automática, na forma de
+      pagamento indicada pelo Licenciado no momento da compra, até que seja cancelada. O
+      cancelamento pode ser feito a qualquer momento através do link enviado por e-mail após a
+      compra. O acesso ao Software permanece ativo até o fim do período já pago — não há
+      cobrança proporcional (pro-rata) para o período não utilizado após o cancelamento.
+    </p>
+  </section>
+
+  <section class="clause">
+    <div class="num">3</div>
+    <h2>Cancelamento, garantia e reembolso</h2>
+    <p>
+      Em conformidade com o Código de Defesa do Consumidor (art. 49), o Licenciado tem direito
+      de arrependimento de <strong>7 (sete) dias corridos</strong> a partir da data da compra,
+      com reembolso integral, mediante solicitação por e-mail ao suporte.
+    </p>
+    <p>
+      Após esse período, não há reembolso de meses já cobrados, mas o cancelamento pode ser
+      feito a qualquer momento para suspender cobranças futuras.
+    </p>
+  </section>
+
+  <section class="clause">
+    <div class="num">4</div>
+    <h2>Requisitos e disponibilidade</h2>
+    <p>
+      O Software requer Windows 10 ou superior e o navegador Google Chrome instalado. O
+      funcionamento do Software depende da disponibilidade e da estrutura de páginas das
+      plataformas de terceiros (Google Flow). Alterações feitas por esses provedores em
+      suas interfaces podem exigir atualizações do Software, que serão disponibilizadas em
+      prazo razoável, mas <strong>não são garantidas como imediatas</strong>.
+    </p>
+  </section>
+
+  <section class="clause">
+    <div class="num">5</div>
+    <h2>Suporte</h2>
+    <p>O suporte está incluído na assinatura ativa e cobre:</p>
+    <ul>
+      <li>Dúvidas sobre instalação, ativação e uso do Software</li>
+      <li>Correção de bugs identificados no funcionamento do Software</li>
+      <li>Orientação em caso de falha de atualização</li>
+    </ul>
+    <p>
+      O suporte é prestado por e-mail, em até <!-- DEFINA SEU PRAZO --> 48 horas úteis. O suporte
+      <strong>não cobre</strong> problemas causados por alterações de interface das plataformas
+      de terceiros enquanto a correção correspondente não for lançada, nem suporte a sistemas
+      operacionais não listados na seção 4.
+    </p>
+  </section>
+
+  <section class="clause">
+    <div class="num">6</div>
+    <h2>Privacidade e dados</h2>
+    <p>
+      O Software roda localmente na máquina do Licenciado. O conteúdo dos prompts processados
+      <strong>não é enviado nem armazenado pelo Licenciante</strong>. São transmitidos apenas os
+      dados estritamente necessários para validação da licença (chave de licença e e-mail de
+      cadastro) junto ao serviço de gerenciamento de assinaturas.
+    </p>
+  </section>
+
+  <section class="clause">
+    <div class="num">7</div>
+    <h2>Limitação de responsabilidade</h2>
+    <p>
+      O Software é fornecido “como está”. O Licenciante não se responsabiliza por: (a)
+      bloqueios, suspensões ou banimentos de contas em plataformas de terceiros decorrentes do
+      uso do Software; (b) perdas de dados ou conteúdo gerado; (c) indisponibilidade temporária
+      causada por mudanças nas plataformas de terceiros. A responsabilidade total do
+      Licenciante, em qualquer hipótese, está limitada ao valor pago pela assinatura nos últimos
+      30 dias.
+    </p>
+  </section>
+
+  <section class="clause">
+    <div class="num">8</div>
+    <h2>Alterações nestes Termos</h2>
+    <p>
+      Estes Termos podem ser atualizados periodicamente. Alterações relevantes serão comunicadas
+      por e-mail ou através de aviso no próprio Software. O uso continuado após a alteração
+      constitui aceite dos novos Termos.
+    </p>
+  </section>
+
+  <section class="clause">
+    <div class="num">9</div>
+    <h2>Foro e legislação aplicável</h2>
+    <p>
+      Estes Termos são regidos pelas leis da República Federativa do Brasil. Fica eleito o foro
+      da comarca de <!-- SUA CIDADE/COMARCA --> [SUA CIDADE], Estado de
+      <!-- SEU ESTADO --> [SEU ESTADO], para dirimir quaisquer controvérsias.
+    </p>
+  </section>
+
+  <div class="callout">
+    <strong>Contato:</strong> dúvidas sobre estes Termos ou sobre sua assinatura podem ser
+    enviadas para <!-- SEU E-MAIL DE SUPORTE --> suporte@promptflow.com.br
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="year"></span> PromptFlow · <a href="index.html">Voltar ao início</a></div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
